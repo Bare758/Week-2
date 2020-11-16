@@ -113,7 +113,7 @@ public class Week2 {
 	public void CheckingFalse() {
 	Object obj1 = new Object();
 	Object obj2 = new Object();
-	assertFalse(obj1 != obj2);
+	assertFalse(obj1 == obj2);
 	}
 	
 }
