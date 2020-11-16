@@ -104,7 +104,7 @@ public class Week2 {
 	public void CheckingTrue() {
 	Object obj1 = new Object();
 	Object obj2 = new Object();
-	assertFalse(obj1 == obj2);
+	assertTrue(obj1 == obj2);
 	}
 	
 	// Assignment 10
@@ -113,7 +113,7 @@ public class Week2 {
 	public void CheckingFalse() {
 	Object obj1 = new Object();
 	Object obj2 = new Object();
-	assertTrue(obj1 != obj2);
+	assertFalse(obj1 != obj2);
 	}
 	
 }
