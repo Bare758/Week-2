@@ -103,8 +103,9 @@ public class Week2 {
 	@Test
 	public void CheckingTrue() {
 	Object obj1 = new Object();
-	Object obj2 = new Object();
-	assertTrue(obj1 != obj2);
+	Object obj2 = obj1;
+	assertTrue(obj1 == obj2);
+	
 	}
 	
 	// Assignment 10
